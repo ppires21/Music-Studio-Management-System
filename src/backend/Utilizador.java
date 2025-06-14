@@ -14,7 +14,7 @@ public abstract class Utilizador implements java.io.Serializable{
     public Utilizador(){
         nomeverdadeiro="Empty name";
         palavrapasse="Empty pass";
-        userlogin="Empty user name";
+        userlogin="Empty username";
     }
     
     public Utilizador(String userlogin, String palavrapasse, String nomeverdadeiro) {
