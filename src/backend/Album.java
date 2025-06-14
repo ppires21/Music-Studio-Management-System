@@ -265,7 +265,7 @@ public class Album implements java.io.Serializable{
    public double calcpersessconcl(){                //percentagem de sessões concluidas para 1 album
        double persessconcl=0;
        if(nsessoes==0)  persessconcl=0;
-       else persessconcl=(nsessoesconc/nsessoes)*100;
+       else persessconcl=(nsessoesconc*100)/nsessoes;
        return persessconcl;     
    }
    

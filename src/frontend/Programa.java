@@ -1950,7 +1950,7 @@ public class Programa {
     
     public static void carregadados() throws IOException, ClassNotFoundException{
         lu.lerUtilizadores("Utilizadores.dat");
-        li.lerInstrumentos("Instumentos.dat");
+        li.lerInstrumentos("Instrumentos.dat");
         la.lerAlbuns("Albuns.dat");
         lr.lerRequisiçoes("Requisicoes.dat");
         ls.lerSessoes("Sessoes.dat"); 
